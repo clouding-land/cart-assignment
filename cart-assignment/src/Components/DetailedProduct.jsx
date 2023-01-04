@@ -20,10 +20,11 @@ function DetailedProduct(){
         <h1>Product Not Found</h1>
       ) : (
         <>
-          <img src={product.image} alt="" />
-          <h2>Product Name : {product.title}</h2>
-          <h3>Product Price : {product.price}</h3>
-          <p>Product Description:{product.description}</p>
+          <img className="proImage" src={product.image} alt="" />
+          <h2 className="proText">{product.title}</h2>
+          <h3 className="proText2">${product.price}</h3>
+          <p className="proText3">{product.description}</p>
+          <button>Add to Cart</button>
          
         </>
       )}

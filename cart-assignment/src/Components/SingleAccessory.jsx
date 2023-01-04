@@ -5,11 +5,11 @@ import DetailedProduct from "./DetailedProduct";
 
 const SingleAccessory = ({ image, title, id, price }) => {
     return (
-      <div>
-        <img src={image} alt=" " />
-        <h3>{title}</h3>
+        <div className="singleProduct">
+        <img className="img" src={image} alt=" " />
+        <h5>{title}</h5>
         {/* <p>Price: {price}</p> */}
-        <Link to={"/products/" + id}>See More</Link>
+        <button><Link to={"/products/" + id}>See More</Link></button>
         {/* <Link to={`${id}`}>
           <button>More Info</button>
         </Link> */}

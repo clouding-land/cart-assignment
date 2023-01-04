@@ -123,6 +123,10 @@ body {
   .card-header{
     background-color: #86E5FF;
   }
+  .cart{
+    margin-top:40px;
+    margin-left:20px;
+  }
   .price-text{
     color: #10A19D;
   }

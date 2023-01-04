@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import {FaShoppingBasket} from "react-icons/fa";
+import {AiOutlineShoppingCart} from "react-icons/ai";
 import './home.css'
 import React from "react";
 import { Link } from "react-router-dom";
@@ -32,6 +33,7 @@ const Nav = () => {
     <Link class="nav-link" to={"/products/accessories"}>Accessories</Link>
     </li>
   </ul>
+  <Link className="cart" to={"/"}><AiOutlineShoppingCart size={20} /></Link>
 
 </div>
 </nav>
